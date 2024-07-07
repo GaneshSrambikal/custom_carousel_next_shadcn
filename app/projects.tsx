@@ -1,0 +1,1 @@
+export const projects = ['green','purple','blue','yellow']
