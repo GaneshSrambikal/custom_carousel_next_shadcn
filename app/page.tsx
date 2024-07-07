@@ -39,7 +39,7 @@ export default function Home() {
           </CarouselContent>
         </Carousel>
         <div className="flex gap-3">
-          <Button className='rounded-full' variant='outline' onClick={() => api?.scrollTo(current - 1)}><ArrowLeftIcon className="size-7" /></Button>
+          <Button className='rounded-full' variant='outline' onClick={() => api?.scrollTo(current -1)}><ArrowLeftIcon className="size-7" /></Button>
           <Button className='rounded-full' variant='outline' onClick={() => api?.scrollTo(current + 1)}><ArrowRightIcon className="size-7" /></Button>
         </div>
       </div>
